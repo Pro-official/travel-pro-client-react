@@ -1,0 +1,7 @@
+.individual {
+  background-color: #d7e7ff;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

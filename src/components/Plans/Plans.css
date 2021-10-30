@@ -1,0 +1,17 @@
+.plans {
+  background-color: #d7e7ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.plan-text {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+.details {
+  margin-left: 70px;
+  margin-right: 70px;
+}

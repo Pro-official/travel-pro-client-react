@@ -1,0 +1,44 @@
+.plan {
+  border-radius: 10px;
+}
+
+.planDetail-text {
+  width: 100% !important;
+  background-color: #c2d6f7;
+}
+
+.planDetail-text h1,
+small {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(56, 48, 48);
+}
+
+.planDetail-text p {
+  padding: 10px 7px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+
+.plan-image {
+  height: 220px;
+}
+
+.details-footer {
+  padding: 15px 30px;
+  background-color: #02327c;
+  color: white;
+}
+
+.details-button {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-weight: 600;
+  padding: 4px 10px;
+}
