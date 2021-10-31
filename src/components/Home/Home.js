@@ -1,6 +1,8 @@
 import React from "react";
 import background from "../../image/banner.jpg";
+import Gellary from "../Gellary/Gellary";
 import Plans from "../Plans/Plans";
+import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 
 const Home = () => {
@@ -21,6 +23,8 @@ const Home = () => {
         </div>
       </div>
       <Plans></Plans>
+      <Gellary></Gellary>
+      <Reviews></Reviews>
     </div>
   );
 };

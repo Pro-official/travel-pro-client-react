@@ -31,6 +31,7 @@ const Plans = () => {
             <Plan key={plan._id} plan={plan}></Plan>
           ))}
         </Row>
+        <hr />
       </div>
     </div>
   );

@@ -1,0 +1,14 @@
+.review {
+  background-color: #d7e7ff;
+}
+
+.carousel-img {
+  width: 75%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-text {
+  margin-bottom: 100px;
+}

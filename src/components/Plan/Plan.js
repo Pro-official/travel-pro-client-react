@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Plan.css";
 
 const Plan = ({ plan }) => {
-  const { _id, name, describe, price, img } = plan;
+  const { _id, name, describe, price, img, length } = plan;
   return (
     <div>
       <Col className="plan">
@@ -20,7 +20,7 @@ const Plan = ({ plan }) => {
 
           <div className="details-footer d-flex justify-content-between">
             <div>
-              <p>13 Days</p>
+              <p>{length} Days</p>
             </div>
             <Link to={`/plans/${_id}`}>
               <button className="details-button">Book Now</button>

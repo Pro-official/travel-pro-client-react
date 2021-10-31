@@ -1,0 +1,14 @@
+.gallery {
+  background-color: #d7e7ff;
+}
+
+.gellary-img img {
+  height: 350px;
+  width: 100%;
+}
+
+.gallery-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
