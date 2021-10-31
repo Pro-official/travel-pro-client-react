@@ -9,7 +9,7 @@ const Myplan = () => {
   // const { email } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/orders/`)
+    fetch(`https://ghastly-skull-33120.herokuapp.com/orders/`)
       .then((res) => res.json())
       .then((data) => setMyPlans(data));
   }, []);
@@ -17,7 +17,7 @@ const Myplan = () => {
   const handleDelete = (id) => {
     const sure = window.confirm("Do you want to delete this plan? ");
     if (sure) {
-      fetch(`http://localhost:5000/devplan/${id}`, {
+      fetch(`https://ghastly-skull-33120.herokuapp.com/devplan/${id}`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",

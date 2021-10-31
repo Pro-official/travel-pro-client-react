@@ -18,7 +18,7 @@ const AddPlan = () => {
 
     const newPlan = { name, price, length, describe, img };
 
-    fetch("http://localhost:5000/plans", {
+    fetch("https://ghastly-skull-33120.herokuapp.com/plans", {
       method: "POST",
       headers: {
         "content-type": "application/json",

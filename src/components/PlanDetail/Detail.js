@@ -15,7 +15,7 @@ const Detail = () => {
   const describeRef = useRef();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/plans/${id}`)
+    fetch(`https://ghastly-skull-33120.herokuapp.com/plans/${id}`)
       .then((res) => res.json())
       .then((data) => setPlan(data));
   }, []);
@@ -31,7 +31,7 @@ const Detail = () => {
 
     const newPlan = { name, email, address, post, describe, status };
 
-    fetch("http://localhost:5000/orders", {
+    fetch("https://ghastly-skull-33120.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

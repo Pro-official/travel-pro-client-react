@@ -4,7 +4,7 @@ const AllPlan = () => {
   const [orders, setOrders] = useState([]);
   // const [deleted, setDeleted] = useState(null);
   useEffect(() => {
-    fetch("http://localhost:5000/orders/")
+    fetch("https://ghastly-skull-33120.herokuapp.com/orders/")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);
@@ -12,7 +12,7 @@ const AllPlan = () => {
   const handleDelete = (id) => {
     const sure = window.confirm("Do you want to delete this plan? ");
     if (sure) {
-      fetch(`http://localhost:5000/devplan/${id}`, {
+      fetch(`https://ghastly-skull-33120.herokuapp.com/devplan/${id}`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",
