@@ -23,7 +23,7 @@ const Plan = ({ plan }) => {
               <p>{length} Days</p>
             </div>
             <Link to={`/plans/${_id}`}>
-              <button className="details-button">Book Now</button>
+              <button className="details-button">Book Now!!</button>
             </Link>
           </div>
         </Card>
